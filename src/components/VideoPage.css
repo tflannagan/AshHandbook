@@ -1,0 +1,58 @@
+/* src/components/VideoPage.css */
+.video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0rem;
+  margin: 0rem;
+  height: 70vh; 
+  width: 75vw;
+  color: #ffffff;
+}
+
+.video-title, .video-info {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.instructions-container {
+  margin-top: 20px;
+  padding: 20px;
+  width: 70%;
+  background-color: #f8f9fa10; 
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.instructions-container ol {
+  /* counter-reset: step-counter;  */
+  padding-left:1rem; 
+  
+}
+
+.instructions-container ol li {
+  counter-increment: step-counter; 
+  margin-bottom: 15px; 
+  padding-left: 30px; 
+  position: relative;
+  line-height: 1.6;
+  text-align: left; 
+}
+
+
+
+
+iframe {
+  width: 60vw; /* Adjust for responsiveness */
+  height: 500px;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  iframe {
+    width: 90%;
+    height: auto;
+  }
+}

@@ -1,0 +1,13 @@
+/* App.css */
+.app-header {
+  display: flex;
+  
+  align-items: center;
+  padding: 0px;
+  margin: 0;
+}
+
+.material-symbols-outlined {
+  padding: 0rem 0.2rem;
+  margin: 0.1rem 0.2rem;
+}

@@ -1,0 +1,104 @@
+/* src/components/HomePage.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 70vw;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+header {
+  background: rgb(9,71,121);
+background: linear-gradient(254deg, rgba(9,71,121,1) 1%, rgba(131,162,187,1) 87%, rgba(255,255,255,1) 100%);
+  color: #ffffff;
+  padding: 0rem 0.7rem;
+  margin: 0;
+  width: 80%;
+  text-align: center;
+  letter-spacing: 3px;
+  border-radius: 15px;
+}
+
+input {
+ 
+  margin: 2rem 0rem 0rem 0rem;
+  padding: 0.8rem;
+  display: block;
+  width: 70%;
+  max-width: 600px;
+  border-radius: 15px;
+}
+
+.video-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  
+  min-height: 40vh;
+}
+
+.video-list {
+  padding: 0rem 2rem;
+  margin: 0rem 2rem;
+  flex-grow: 1;
+}
+
+.item-title {
+  color: #fff;
+  padding: 0.2rem;
+  margin: 0.1rem;
+}
+
+.subtitle {
+  padding: 0.2rem;
+  margin: 0;
+  color: #ffffff8a;
+  font-size: 0.7rem;
+  
+}
+
+.item-title:hover {
+  color: #007bffae;
+}
+
+
+.pagination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-left: 20px; 
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.page-item {
+  border: 1px solid #007bff00;
+  background-color: #ffffff00;
+  color: #007bffbc;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: background-color 0.3s, color 0.3s;
+ 
+}
+
+.page-item.active,
+.page-item:hover {
+  background-color: #007bff7d;
+  color: #fff;
+}
+
+.no-results {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #666;
+}
