@@ -1,8 +1,18 @@
-# React + Vite
+# Ash Springs Handbook 🏜
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my Artist Portfolio repository! This repository serves as an educational exercise, and also as an ongoing pseudo-database for all my music going forward.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Perfectly optimized for both desktop and mobile viewing.
+- **Playable Videos**: Showcases a selection of the embeded videos with relative instructions.
+- **Searchable Items**: Fully functional searching capabilities.
+- **Simple and Easy to Use**: Minimalistic UI/UX for pleasant experience.
+
+## Contributing
+This repository is primarily being used for educational purposes. No contributions needed at this time.
+
+## 🌐 Live Site
+
+You can see it live [here](https://tflannagan.github.io/AshHandbook/)!
+
