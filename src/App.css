@@ -11,3 +11,16 @@
   padding: 0rem 0.2rem;
   margin: 0.1rem 0.2rem;
 }
+
+
+@media (max-width: 768px) {
+  .app-header {
+    font-size: 1rem; /* Smaller font size for mobile devices */
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 0.7rem; /* Even smaller font size for very small devices */
+  }
+}
