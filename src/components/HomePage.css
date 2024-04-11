@@ -2,7 +2,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-content: center;
   align-items: center;
   height: 70vh;
@@ -19,7 +19,10 @@ background: linear-gradient(254deg, rgba(9,71,121,1) 1%, rgba(131,162,187,1) 87%
   padding: 0rem 0.7rem;
   margin: 0;
   width: 80%;
+  
   text-align: center;
+  align-items: center;
+  justify-items: center;
   letter-spacing: 3px;
   border-radius: 15px;
 }
